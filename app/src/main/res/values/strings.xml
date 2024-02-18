@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Watch</string>
+    <string name="toolbar_text">Movies to Watch</string>
+    <string name="press_button">Press button</string>
+    <string name="no_movies_text">There are currently no movies in your watch list.
+    Tap the button below to get started!</string>
+    <string name="plus">+</string>
+    <string name="add_to_movies">Add to movies</string>
+</resources>
