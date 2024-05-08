@@ -1,9 +1,10 @@
-package com.bignerdranch.android.watch
+package com.bignerdranch.android.watch.MainActivityPack
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.bignerdranch.android.watch.R
 import com.bignerdranch.android.watch.databinding.FilmItemBinding
 
 class FilmAdapter: RecyclerView.Adapter<FilmAdapter.FilmHolder>() {

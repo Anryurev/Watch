@@ -1,18 +1,21 @@
-package com.bignerdranch.android.watch
+package com.bignerdranch.android.watch.MainActivityPack
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.bignerdranch.android.watch.R
 import com.bignerdranch.android.watch.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     lateinit var binding: ActivityMainBinding
     private val adapter = FilmAdapter()
-    private val imageIdList = listOf(R.drawable.harrypotter1,
+    private val imageIdList = listOf(
+        R.drawable.harrypotter1,
         R.drawable.harrypotter2,
         R.drawable.harrypotter3,
         R.drawable.harrypotter4,
-        R.drawable.harrypotter5)
+        R.drawable.harrypotter5
+    )
     private var index = 0
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
